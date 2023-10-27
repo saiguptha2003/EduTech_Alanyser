@@ -1,0 +1,61 @@
+{%import 'utility.html' as utl %}
+
+{{ utl.DashboardhtmlMetaTopToCode('Dashboard') }}
+
+<body>
+    {{ utl.Navbar() }}
+
+    <div class="containerhigh">
+        <form>
+            <div class="form-group">
+                <label for="numberofsubjects"></label>
+                <select class="form-control" id="numberofsubjects" name="numberofsubjects" onchange="changeFunc();">
+                    <option value="sub_1">Sub_1</option>
+                    <option value="sub_2">Sub_2</option>
+                    <option value="sub_3">Sub_3</option>
+                    <option value="sub_4">Sub_4</option>
+                    <option value="allstudents">All Subjects</option>
+                </select>
+            </div>
+        </form>
+        {{ utl.sub_1_window(sub_1_dataframe,sub_1) }}
+        {{ utl.sub_2_window(sub_2_dataframe,sub_2) }}
+        {{ utl.sub_3_window(sub_3_dataframe,sub_3) }}
+        {{ utl.sub_4_window(sub_4_dataframe,sub_4) }}
+        {{ utl.sub_all_window(below_mean_all_subjects_students) }}
+    </div>
+    <div class="bot">
+        hekkod fadsjfbasjkdhfjkadsbhnfjkasdhfkjdsbnkj
+    </div>
+
+    <button class="open-button" >Chat</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function changeFunc() {
+            var selectBox = document.getElementById("numberofsubjects");
+            var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+            var ele = document.getElementById(selectedValue);
+            window.scrollTo(ele.offsetLeft, ele.offsetTop);
+
+        }
+        function openForm() {
+            document.getElementById("on_chat_popout").style.visibility = "visible";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+    {{ utl.htmlMetaBottomToCode()}}

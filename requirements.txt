@@ -1,0 +1,4 @@
+Flask
+pandas
+jinja2
+flask_session

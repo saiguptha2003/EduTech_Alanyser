@@ -1,0 +1,172 @@
+.container{
+    margin-top: 35px;
+    /* border: #FF6969 2px solid; */
+    border-radius: 10px;
+    padding: 20px;
+    /* background-color: #C70039; */
+    background-color: #C70039;
+    height:655px;
+    width: 85%;
+    
+
+}
+.btn{
+    width: 100%;
+    background-color: #FFF5E0;
+    color: #000000;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+
+
+}
+.fileinput{
+    background-color: #f19090;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+
+    font-weight: bold;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    font-weight:bold;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text2{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+body{
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.container2{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 30px;
+    margin-left: 40px;
+    padding-left: 40px;
+    align-items: center;
+    height:600px;
+    /* border: #FF6969 2px solid; */
+    border-radius: 10px;
+    padding: 20px;
+
+    width: 92%;
+    margin-bottom: 100px;   
+}
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}
+
+/* ------------------------ */
+label{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[type='file']:hover{
+    cursor: pointer;
+    
+}
+.popup{
+    background-color: #C70039;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    height: 400px;
+    width: 70%;
+    font-weight: bold;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+
+    position:absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: tcenter;
+    padding: 0 30px 0 30px;
+    visibility: hidden;
+    transition: transform 0.5s top 0.4s;
+
+
+}
+
+.open-popout{
+  visibility: visible;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.5s ease-in-out;
+  z-index: 1000;
+
+
+}
+
+.body > *:not(.popup){
+  transition: filter 0.5s ease-in-out;
+  filter: blur(5px);
+}
+.error{
+  position:relative;
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: right;
+}

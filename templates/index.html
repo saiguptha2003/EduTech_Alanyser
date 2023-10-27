@@ -1,0 +1,87 @@
+{%import 'utility.html' as utl %}
+
+{{ utl.htmlMetaTopToCode('EduTech Analyser') }}
+
+{{ utl.Navbar() }}
+
+<div class="container" id="container">
+
+  <h1 class="text">Simply upload your student marks file in a compatible format, and our system will process the data
+    securely.</h1>
+  <div class="container2">
+    <form action="/" method="POST" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+    </div>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="name" class="form-control" id="name" placeholder="A-Z or a-z" name="name">
+    </div>
+    <div class="form-group">
+      <label for="numberofcolumns">Number of Subjects</label>
+      <select class="form-control" id="numberofcolumns" name="numberofcolumns">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="dataset">Upload StudentMarks Sheet (.CSV File) <span onmouseover="popup_Event()" > for more Instructions Hover</span></label>
+      <input type="file" accept=".csv" class="form-control-file" id="dataset" name="dataset">
+    </div>
+
+      {% with messages=get_flashed_messages() %}
+      {% if messages %}
+     
+        {% for message in messages %}
+        <div class="alert alert-warning" role="alert">
+        <p>{{ message }}</p>
+      </div>
+        {% endfor %}
+      {% endif %}
+      {% endwith %}
+      
+
+    <button class="btn"  >Analyze</button>
+    </form>
+  </div>
+
+
+  
+</div>
+<div class="popup" id="popup">
+  <h1 class="text">how to use it?</h1>
+  <p class="text">Please upload Excel with 4 subjects because software can analyse only 4 subjects</p>
+  <p class="text">dataset is in the form of role, name ,sub-1,sub-2,sub3,sub-4</p>
+  <button class="btn" onclick="popup_close_Event()">Close</button>
+</div>
+
+<script>
+  let popout=document.getElementById('popup');
+function popup_Event(){
+    popout.classList.add('open-popout');
+    let x=document.getElementById('container');
+    x.style.filter="blur(10px)";
+    setTimeout(() => {
+    }, 1000);
+    
+
+    
+
+}
+function popup_close_Event(){
+    popout.classList.remove('open-popout');
+    let x=document.getElementById('container');
+    x.style.filter="blur(0px)";
+    x.style.transition="all 0.5s to 0.5s";
+
+
+}
+var element = document.getElementById("explore");
+element.style.color = "#F4D160";
+</script>
+{{ utl.htmlMetaBottomToCode() }}

@@ -1,0 +1,104 @@
+.container_3{
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    overflow-y:scroll;
+    height: 550px;
+    width: 100%;
+  }
+  .MainContainer{
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-content: center;  
+  width: 80%;
+  margin-left: 10%;
+  }
+  .MainContainer h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+  }
+  
+  .form-control{
+    align-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: #C70039;
+    color: white;
+    text-align: center;
+  }
+  
+  .containerhigh{
+    background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+
+  
+  
+  }
+  select {
+    display: block;
+    margin : 0 auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    text-align: left;
+    padding: 16px;
+  }
+
+
+  .container_3 th{
+    position: sticky;
+  }
+
+  .container_codes{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 550px;
+  }
+
+  
