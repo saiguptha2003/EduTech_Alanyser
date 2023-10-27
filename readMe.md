@@ -122,4 +122,4 @@ EduTech Analyser is a testament to the positive impact technology can have on ed
 
 
 # Cloud Deployment Link 
-<a href="https://edutech-tmlv.onrender.com/">https://edutech-tmlv.onrender.com/</a>
+# <a href="https://edutech-tmlv.onrender.com/">https://edutech-tmlv.onrender.com/</a>
