@@ -40,7 +40,7 @@ For individuals, such as parents or private tutors, the application offers a mea
 5.Cloud Deployment<br>
 
 ## WorkFlow
-<img src='https://github.com/saiguptha2003/EduTech_Analyser/blob/main/work_flow.png'>
+<img src="https://github.com/saiguptha2003/EduTech_Alanyser/blob/main/work_flow.png">
 
 ## Code Snippets
 ```python
