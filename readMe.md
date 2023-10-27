@@ -97,7 +97,7 @@ sub_2_mean=dataset['sub-2'].mean()
 unique_students_sub_6.drop(['sub-1','sub-2','sub-3','sub-4','sub-5'], axis=1)
 
 ```
-## How to use Website
+## How to use Websitef
 <a href="">Click here to Watch the demo Video</a>
 
 ## Type of Inputs<br>
