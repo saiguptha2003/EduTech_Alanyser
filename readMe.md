@@ -2,6 +2,7 @@
 
 ## Outline
 1. Introduction<br>
+1.1.1  Future Development
 2. Uses of Application<br>
 3. Tech Stacks<br>
 4. Work Flow<br>
@@ -21,6 +22,10 @@ What sets EduTech Analyser apart is its ability to delve deep into the data and 
 
 In a world where data-driven decision-making is key to effective education, EduTech Analyser emerges as an indispensable tool, facilitating the journey toward academic excellence for every student. Join us in exploring the vast potential of this website, where technology and education converge to shape a brighter future for learners of all backgrounds and abilities.
 
+## Future Development
+If required time is allocated then we can develop this website to the peaks by integrating blockchain and make it paid version and little secure 
+I have a Idea to integrate some mechine learning algorithm for segguestions for teacher to get the correct one for perticular students according to the present dataset in the internet we came to the decision to make the website with boundaries 
+
 ## Uses of Application 
 EduTech Analyser offers versatile applications for both educational institutions and individuals. In schools and educational settings, this tool serves as a valuable asset for teachers and administrators. It simplifies the process of identifying underperforming students, enabling timely interventions to support their academic growth. Additionally, EduTech Analyser provides a comprehensive overview of student performance, aiding in data-driven decision-making for curriculum enhancements and resource allocation.
 
@@ -31,8 +36,8 @@ For individuals, such as parents or private tutors, the application offers a mea
 1.Flsk (Backend Development) <br>
 2.Jinja2 (frontend Development) <br>
 3.Pandas (Dataset Processing and Modification)<br>
-4.Notion Pages (Documentation of code)
-5.Cloud Deployment
+4.Notion Pages (Documentation of code)<br>
+5.Cloud Deployment<br>
 
 ## WorkFlow
 <img src='https://github.com/saiguptha2003/EduTech_Analyser/blob/main/work_flow.png'>
@@ -96,16 +101,16 @@ unique_students_sub_6.drop(['sub-1','sub-2','sub-3','sub-4','sub-5'], axis=1)
 <a href="">Click here to Watch the demo Video</a>
 
 ## Type of Inputs<br>
-1.Email
-2.Count of Subjects
-3.CSV File for Processing 
-4.Little patience 😁
+1.Email <br>
+2.Count of Subjects <br>
+3.CSV File for Processing <br>
+4.Little patience 😁 <br>
 
 ## Version Control
-GitClone LInk:https://github.com/saiguptha2003/EduTech_Analyser.git
-Zip_file Link:gh repo clone saiguptha2003/EduTech_Analyser
-cli link: git@github.com:saiguptha2003/EduTech_Analyser.git
-Contact EMail: saiguptha2003@gmail.com
+GitClone LInk:https://github.com/saiguptha2003/EduTech_Analyser.git<br>
+Zip_file Link:gh repo clone saiguptha2003/EduTech_Analyser<br>
+cli link: git@github.com:saiguptha2003/EduTech_Analyser.git<br>
+Contact EMail: saiguptha2003@gmail.com<br>
 
 ## Gallery
 Just Visit the Deployment Link]
