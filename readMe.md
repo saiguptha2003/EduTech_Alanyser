@@ -14,8 +14,8 @@
 10. Conclusion<br>
 
 ## Reference Video 
-<video width="500px" height="500px" controls="controls">
-<source src="https://github.com/saiguptha2003/EduTech_Alanyser/blob/main/screen-capture.webm" type="video/webm" />
+
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)].(https://github.com/saiguptha2003/EduTech_Alanyser/blob/main/screen-capture.webm)
        
 ## Introduction 
 In the ever-evolving landscape of education, the need for efficient tools to support educators and students has never been greater. Enter EduTech Analyser, a revolutionary website designed to transform the way educators identify and assist students who may need additional support to excel academically.
